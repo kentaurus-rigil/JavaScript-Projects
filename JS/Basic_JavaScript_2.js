@@ -5,7 +5,7 @@ var apples = "apples are red.";  //Define variable
 var apples = apples.fontcolor("red");
 document.write(apples);
 
-function Orange() {				//Defining a function and naming it
+function Oranges() {				//Defining a function and naming it
 	var str = "Oranges are Orange!";		//Defining a variable and giving it a 
 											//string value
 	var result = str.fontcolor("orange");	//Using the fontcolor method on
@@ -20,10 +20,13 @@ function myFunction() {
 	document.getElementById("Concatenate").innerHTML = sentence;
 }
 
-var x = myFunction (4,3);
+//var x = Test (4,3);
 
-function myFunction (a,b) {
+function Test (a,b) {
 	return a * b;
 }
 
-var x = document.getElementById("demo");
+var x = document.getElementById("Test");
+x.style.color = "red";
+
+
