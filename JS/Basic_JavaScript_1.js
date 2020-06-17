@@ -17,14 +17,13 @@ function My_First_Function() {				//Defining a function and naming it
 																//of result into HTML element with "Green_Text" id
 }
 
-function My_Second_Function() {
-	var str = "This text is red!";
-	
-	var result = str.fontcolor("red");
-	
+function My_Second_Function() {				//Defining a function and naming it
+	var str = "This text is red!";		//Defining a variable and giving it a 
+											//string value
+	var result = str.fontcolor("red");	//Using the fontcolor method on
+											//str variable
 	document.getElementById("Red_Text").innerHTML = result;
 }
-
 	
 
 		
