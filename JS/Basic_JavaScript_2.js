@@ -19,3 +19,11 @@ function myFunction() {
 	sentence += " a lot from this book!";
 	document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+var x = myFunction (4,3);
+
+function myFunction (a,b) {
+	return a * b;
+}
+
+var x = document.getElementById("demo");
