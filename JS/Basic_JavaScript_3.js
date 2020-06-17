@@ -19,7 +19,7 @@ function division () {
 }
 
 function more_Math () {
-	var Math = (1 + 2) * 10 / 2 - 5;
+	var math = (1 + 2) * 10 / 2 - 5;
 	document.getElementById("Math").innerHTML = "1 plus 2, multiplied by 10, divided in half and then subtracted by 5 equals " + Math;
 }
 
@@ -36,13 +36,13 @@ function negation_Operator() {
 function increment() {
 	var y = 5;
 	y++;
-	document.write(y);
+	document.getElementById("y").innerHTML = y++;
 }
 
 function decrement() {
 	var z = 5.25;
 	z--;
-	document.write(z);
+	document.getElementById("z").innerHTML = z--;
 }
 
 function random() {
@@ -52,4 +52,6 @@ function random() {
 function random_2() {
 	window.alert(Math.random()*100);
 }
+
+
 
