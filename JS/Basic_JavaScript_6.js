@@ -52,9 +52,9 @@ function Person(first, last, age, eye) {
 }
 var myFather = new Person("John", "Doe", 50, "blue");
 var myMother = new Person("Sally", "Rally", 48, "green");
-function Person() {
+function Persons() {
 	document.getElementById("Ma_and_Pa").innerHTML =
-	"My father is" + myFather.first + myFather.last + myFather.age + " his eyes are " + myFather.eyeColor;
+	"My father is" + myFather.firstName + myFather.lastName + myFather.age + " his eyes are " + myFather.eyeColor;
 }
 
 function count_Function() {
