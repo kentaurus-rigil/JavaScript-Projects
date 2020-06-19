@@ -1,18 +1,18 @@
 //Creating a JavaScript Program
 
-//function countdown() {
-	//var seconds = document.getElementById("seconds").value;
+function countdown() {
+	var seconds = document.getElementById("seconds").value;
 	
-	//function tick() {
-		//seconds = seconds - 1;
-		//timer.innerHTML = seconds;
-		//setTimeout(tick, 1000);
-	//if(seconds == -1){
-		//alert("Time's up!");
-	//}
-	//}
-	//tick();
-//}
+	function tick() {
+		seconds = seconds - 1;
+		timer.innerHTML = seconds;
+		setTimeout(tick, 1000);
+	if(seconds == -1){
+		alert("Time's up!");
+	}
+	}
+	tick();
+}
 		
 		
 var slideIndex = 1;
@@ -34,7 +34,8 @@ function showSlides(n) {
 	var dots = document.getElementsByClassName("dot");
 	if (n > slides.length) {slideIndex =1}
 	if (n < 1) {slideIndex = slides.length}
-	for (i = 0; i < slides.display = "none";
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
 }
 
 for (i = 0; i < dots.length; i++) {

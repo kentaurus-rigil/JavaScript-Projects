@@ -2,11 +2,19 @@
 <html lang="en">
 	<head>
 		<meta="UTF-8">
-		<script src="JS/Basic_JavaScript_9.js"></script>
-		<link rel="stylesheet" type="text/css" href="CSS/Basic_CSS_1.css">
+		
 	</head>
 	
 	<body>
+	
+		<link rel="stylesheet" type="text/css" href="CSS/Basic_CSS_1.css">
+		<!-- Timer -->
+		
+		<p>How many seconds would you like to set your alarm for?</p>
+		<input id="seconds" value="" />
+		<button onclick="countdown()">Click here</button>
+		<p id="timer"></p> 
+		
 		<!-- Slideshow container -->
 		<div class="slideshow-container">
 		
@@ -43,13 +51,8 @@
 			<span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 		
-			
-		
-		
+		<script src="JS/Basic_JavaScript_9.js"></script>	
 	</body>
 </html>
 
-	<!-- <p>How many seconds would you like to set your alarm for?</p>
-		<input id="seconds" value="" />
-		<button onclick="countdown()">Click here</button>
-		<p id="timer"></p> -->
+	
