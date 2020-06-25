@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html lang='en'>
+	<head>
+		<meta charset='UTF-8'>
+	</head>
+	
+	<body>
+		<h1>The Script Element</h1>
+			<p id="demo"></p>
+			<script>
+				document.getElementById("demo").innerHTML = "Hello JavaScript!";
+			</script>
+			
+		<h2>JavaScript Arrow Function</h2>
+			<p id="demo_1"></p>
+			<script>
+			var hello;
+			
+			hello = () => {
+				return "Hello World!";
+			}
+			
+			document.getElementById("demo_1").innerHTML = hello();
+			</script>
+	
+	
+	</body>
+</html>
