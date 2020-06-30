@@ -1,0 +1,37 @@
+div {
+	width: 100px;
+	height: 100px;
+	background: red;
+	position: relative;
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+	from {top: 0px}
+	to {top: 200px}
+}
+
+}
+h2 {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	position: relative;
+	animation: zoominoutsingle 5s;
+}
+	
+	
+@keyframes zoominoutsingle {
+	0%{
+		transform: scale(1,1);
+	}
+	50% {
+		transform: scale (1.2,1.2);
+	}
+	100% {
+		transform: scale(1,1);
+	}
+}
+.single-featured-image-header img {
+	animation: zoominoutsinglefeatured 15s forwards;
+}

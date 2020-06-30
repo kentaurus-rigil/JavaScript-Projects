@@ -1,3 +1,10 @@
+document.body.className += 'fadeout';
+
+$(function(){
+	$('body').removeClass('fade-out');
+};
+
+
 setInterval("myFunction()", 1);
 
 function myFunction() {
